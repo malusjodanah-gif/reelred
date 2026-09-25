@@ -58,11 +58,11 @@ function Navbar() {
           onClick={closeMobileMenu}
           className="flex items-center gap-2"
         >
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-red-600">
-            <span className="text-sm font-bold">
-              R
-            </span>
-          </div>
+          <img
+            src="/ReelRed-icon.png"
+            alt="ReelRed"
+            className="h-9 w-9 rounded-lg object-cover"
+          />
 
           <span className="text-xl font-bold">
             Reel<span className="text-red-600">Red</span>
